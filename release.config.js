@@ -1,1 +1,1 @@
-module.exports = require("@koj/config").releaseMaster;
+module.exports = require("@betahuhn/config").releaseMaster;
