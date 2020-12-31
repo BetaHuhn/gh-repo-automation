@@ -1,0 +1,12 @@
+config:
+  - ./*
+tooling:
+  - tooling/**/*.*
+assets:
+  - static/**/*.*
+tests:
+  - any: ["test/**/*"]
+package:
+  - any: ["package.json", "package-lock.json"]
+source:
+  - src/**/*
