@@ -1,4 +1,4 @@
-# readme
+# gh-repo-automation
 
 ## semantic-release
 
