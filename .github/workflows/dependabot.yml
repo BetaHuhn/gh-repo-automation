@@ -29,17 +29,9 @@ jobs:
               core.warning(`expected PR by "dependabot[bot]", found "${sender ? sender.login : 'no-sender'}" instead`)
               process.exit(0)
             }
-      - name: 'Wait for status checks'
-        id: wait-for-checks
-        uses: "WyriHaximus/github-action-wait-for-status@master"
-        with:
-          ignoreActions: automerge
-          checkInterval: 13
-        env:
-          GITHUB_TOKEN: "${{ secrets.GH_PAT }}"
+            process.exit(0)
       - name: Run auto-merge action
         uses: koj-co/dependabot-pr-action@master
-        if: steps.wait-for-checks.outputs.status == 'success'
         with:
           token: ${{ secrets.GH_PAT }}
           auto-label: true
