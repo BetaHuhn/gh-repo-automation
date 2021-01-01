@@ -1,3 +1,11 @@
+## [v2.0.0] - 2021-01-01
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v2.0.0) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v1.0.2...v2.0.0) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v2.0.0) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v2.0.0.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v2.0.0.tar.gz))
+
+### Breaking changes
+
+- [`596b14d`](https://github.com/BetaHuhn/gh-repo-automation/commit/596b14d)  New release
+
 ## [v1.0.2] - 2020-12-31
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v1.0.2) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v1.0.1...v1.0.2) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v1.0.2) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v1.0.2.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v1.0.2.tar.gz))
