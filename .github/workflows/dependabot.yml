@@ -1,39 +1,13 @@
 name: Dependabot PR CI
 on:
   pull_request:
-    types:
-      - labeled
-      - unlabeled
-      - synchronize
-      - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
-  pull_request_review:
-    types:
-      - submitted
   workflow_dispatch:
 jobs:
   auto-merge:
-    name: Merge and label minor/patch updates if all other checks pass
     runs-on: ubuntu-latest
     steps:
-      - name: Check if PR is from Dependabot
-        uses: actions/github-script@v3
+      - name: Merge minor/patch updates if all other checks pass
+        uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
-          github-token: ${{secrets.GH_PAT}}
-          script: |
-            const sender = context.payload.sender
-            if (!sender || !['dependabot[bot]', 'dependabot-preview[bot]'].includes(sender.login)) {
-              core.warning(`expected PR by "dependabot[bot]", found "${sender ? sender.login : 'no-sender'}" instead`)
-              process.exit(0)
-            }
-            process.exit(0)
-      - name: Run auto-merge action
-        uses: koj-co/dependabot-pr-action@master
-        with:
-          token: ${{ secrets.GH_PAT }}
-          auto-label: true
-          merge-minor: true
-          merge-patch: true
+          target: minor
+          github-token: ${{ secrets.GH_PAT }}
