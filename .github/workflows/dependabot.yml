@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check if triggered inside PR from Dependabot
-      - uses: actions/github-script@v3
+        uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GH_PAT}}
           script: |
@@ -22,7 +22,8 @@ jobs:
               core.warning(`expected PR by "dependabot[bot]", found "${sender ? sender.login : 'no-sender'}" instead`)
               process.exit(0)
             }
-      - uses: koj-co/dependabot-pr-action@master
+      - name: Run auto-merge action
+        uses: koj-co/dependabot-pr-action@master
         with:
           token: ${{ secrets.GH_PAT }}
           auto-label: true
