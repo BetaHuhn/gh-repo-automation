@@ -1,13 +1,30 @@
 name: Dependabot PR CI
 on:
-  pull_request:
+  check_suite:
+    types: [completed]
+  workflow_dispatch:
 jobs:
   auto-merge:
     name: Merge and label minor/patch updates
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - name: Check if triggered inside PR from Dependabot
+      - uses: actions/github-script@v3
         with:
-          target: minor
-          github-token: ${{ secrets.GH_PAT }}
+          github-token: ${{secrets.GH_PAT}}
+          script: |
+            if (context.eventName !== 'pull_request') {
+              core.warning('action triggered outside of a pull_request')
+              process.exit(0)
+            }
+            const sender = context.payload.sender
+            if (!sender || !['dependabot[bot]', 'dependabot-preview[bot]'].includes(sender.login)) {
+              core.warning(`expected PR by "dependabot[bot]", found "${sender ? sender.login : 'no-sender'}" instead`)
+              process.exit(0)
+            }
+      - uses: koj-co/dependabot-pr-action@master
+        with:
+          token: ${{ secrets.GH_PAT }}
+          auto-label: true
+          merge-minor: true
+          merge-patch: true
