@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📚 Docs
-    url: /#gh-repo-automation
+    url: /blob/master/README.md#gh-repo-automation
     about: Checkout the documentation
   - name: 🚀 Feature Request
     url: /discussions/new?category=ideas
