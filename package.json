@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/BetaHuhn/gh-repo-automation#readme",
   "devDependencies": {
-    "@betahuhn/config": "^1.0.2",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.1.2",
-    "@semantic-release/npm": "^7.0.8",
-    "semantic-release": "^17.2.3",
-    "semantic-release-gitmoji": "^1.3.4",
-    "typescript": "^4.1.3"
+    "@betahuhn/config": "1.0.2",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.2.0",
+    "@semantic-release/npm": "7.0.9",
+    "semantic-release": "17.3.1",
+    "semantic-release-gitmoji": "1.3.4",
+    "typescript": "4.1.3"
   }
 }
