@@ -1,3 +1,12 @@
+## [v3.0.6] - 2021-02-22
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v3.0.6) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v3.0.5...v3.0.6) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v3.0.6) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.6.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.6.tar.gz))
+
+### Dependency updates
+
+- [`3c4f0b2`](https://github.com/BetaHuhn/gh-repo-automation/commit/3c4f0b2)  Bump pascalgn/automerge-action from v0.13.0 to v0.13.1
+- [`939e23f`](https://github.com/BetaHuhn/gh-repo-automation/commit/939e23f)  Bump semantic-release from 17.3.8 to 17.3.9
+
 ## [v3.0.5] - 2021-02-15
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v3.0.5) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v3.0.4...v3.0.5) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v3.0.5) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.5.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.5.tar.gz))
