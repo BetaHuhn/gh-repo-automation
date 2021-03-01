@@ -1,3 +1,12 @@
+## [v3.0.7] - 2021-03-01
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v3.0.7) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v3.0.6...v3.0.7) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v3.0.7) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.7.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.7.tar.gz))
+
+### Dependency updates
+
+- [`b51b8ab`](https://github.com/BetaHuhn/gh-repo-automation/commit/b51b8ab)  Bump typescript from 4.1.5 to 4.2.2
+- [`70fd90a`](https://github.com/BetaHuhn/gh-repo-automation/commit/70fd90a)  Bump semantic-release from 17.3.9 to 17.4.0
+
 ## [v3.0.6] - 2021-02-22
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v3.0.6) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v3.0.5...v3.0.6) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v3.0.6) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.6.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v3.0.6.tar.gz))
