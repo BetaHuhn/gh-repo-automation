@@ -1,14 +1,16 @@
 name: Dependabot PR CI
 on:
-  pull_request_target: # See related issue https://git.io/Jmcv6
+  schedule:
+    - cron: "0 */6 * * *" # Every six hours
   workflow_dispatch:
 jobs:
   auto-merge:
-    if: github.actor == 'dependabot[bot]' # See related GitHub article https://git.io/JmcJv
+    name: Auto Merge
     runs-on: ubuntu-latest
     steps:
       - name: Merge minor/patch updates
-        uses: ahmadnassri/action-dependabot-auto-merge@v2
+        uses: koj-co/dependabot-pr-action@master
         with:
-          target: minor
-          github-token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_PAT }}
+          merge-minor: true
+          merge-patch: true
