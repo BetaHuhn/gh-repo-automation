@@ -11,7 +11,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@master
       - name: Run GitHub File Sync
-        uses: BetaHuhn/action-github-file-sync@feat/overwrite-existing-pr
+        uses: BetaHuhn/repo-file-sync-action@develop
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
-          OVERWRITE_EXISTING_PR: false
