@@ -1,5 +1,3 @@
 BetaHuhn/gh-repo-automation2:
-  - source: .github/workflows/stale.yml
-    dest: .github/workflows/stale3.yml
   - source: .github/ISSUE_TEMPLATE/
-    dest: issues/
+    dest: issues2/

@@ -11,7 +11,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@master
       - name: Run GitHub File Sync
-        uses: BetaHuhn/repo-file-sync-action@develop
+        uses: BetaHuhn/repo-file-sync-action@master
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
-          SKIP_PR: false
