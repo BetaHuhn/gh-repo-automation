@@ -14,4 +14,4 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@develop
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
-          SKIP_PR: true
+          SKIP_PR: false
