@@ -1,4 +1,3 @@
 BetaHuhn/gh-repo-automation2:
-  - source: .github/workflows/
-    dest: .github/workflows/
-    exclude: node.yml
+  - source: .github/ISSUE_TEMPLATE/
+    dest: issues/
