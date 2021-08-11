@@ -14,4 +14,3 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@develop
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
-          PR_BODY: 'This is a test'
