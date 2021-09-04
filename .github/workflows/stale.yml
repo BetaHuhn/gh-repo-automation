@@ -1,4 +1,4 @@
-name: "Stale Issues CI"
+name: Stale Issues CI
 on:
   schedule:
   - cron: "0 0 * * *"
