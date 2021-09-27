@@ -1,3 +1,11 @@
+## [v4.0.6] - 2021-09-27
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.6) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.5...v4.0.6) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.6) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.6.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.6.tar.gz))
+
+### Dependency updates
+
+- [`9921a64`](https://github.com/BetaHuhn/gh-repo-automation/commit/9921a64)  Bump semver-regex from 3.1.2 to 3.1.3
+
 ## [v4.0.5] - 2021-09-20
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.5) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.4...v4.0.5) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.5) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.5.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.5.tar.gz))
