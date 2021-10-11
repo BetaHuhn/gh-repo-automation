@@ -1,3 +1,11 @@
+## [v4.0.8] - 2021-10-11
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.8) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.7...v4.0.8) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.8) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.8.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.8.tar.gz))
+
+### Dependency updates
+
+- [`2f594f9`](https://github.com/BetaHuhn/gh-repo-automation/commit/2f594f9)  Bump semantic-release-gitmoji from 1.3.4 to 1.4.2
+
 ## [v4.0.7] - 2021-10-04
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.7) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.6...v4.0.7) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.7) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.7.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.7.tar.gz))
