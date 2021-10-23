@@ -1,3 +1,71 @@
+## [v4.0.9] - 2021-10-18
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.9) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.8...v4.0.9) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.9) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.9.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.9.tar.gz))
+
+### Dependency updates
+
+- [`98e7eed`](https://github.com/BetaHuhn/gh-repo-automation/commit/98e7eed)  Bump typescript from 4.4.3 to 4.4.4
+
+## [v4.0.8] - 2021-10-11
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.8) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.7...v4.0.8) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.8) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.8.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.8.tar.gz))
+
+### Dependency updates
+
+- [`2f594f9`](https://github.com/BetaHuhn/gh-repo-automation/commit/2f594f9)  Bump semantic-release-gitmoji from 1.3.4 to 1.4.2
+
+## [v4.0.7] - 2021-10-04
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.7) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.6...v4.0.7) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.7) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.7.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.7.tar.gz))
+
+### Dependency updates
+
+- [`311812c`](https://github.com/BetaHuhn/gh-repo-automation/commit/311812c)  Bump actions/setup-node from 2.4.0 to 2.4.1
+
+## [v4.0.6] - 2021-09-27
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.6) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.5...v4.0.6) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.6) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.6.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.6.tar.gz))
+
+### Dependency updates
+
+- [`9921a64`](https://github.com/BetaHuhn/gh-repo-automation/commit/9921a64)  Bump semver-regex from 3.1.2 to 3.1.3
+
+## [v4.0.5] - 2021-09-20
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.5) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.4...v4.0.5) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.5) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.5.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.5.tar.gz))
+
+### Dependency updates
+
+- [`1a15a17`](https://github.com/BetaHuhn/gh-repo-automation/commit/1a15a17)  Bump typescript from 4.4.2 to 4.4.3
+
+## [v4.0.4] - 2021-09-13
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.4) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.3...v4.0.4) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.4) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.4.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.4.tar.gz))
+
+### Dependency updates
+
+- [`9586fdd`](https://github.com/BetaHuhn/gh-repo-automation/commit/9586fdd)  Bump @semantic-release/git from 9.0.0 to 9.0.1
+- [`c1021e2`](https://github.com/BetaHuhn/gh-repo-automation/commit/c1021e2)  Bump @betahuhn/config from 1.1.0 to 1.2.0
+
+## [v4.0.3] - 2021-09-06
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.3) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.2...v4.0.3) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.3) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.3.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.3.tar.gz))
+
+### Dependency updates
+
+- [`093f7d4`](https://github.com/BetaHuhn/gh-repo-automation/commit/093f7d4)  Bump @betahuhn/config from 1.0.2 to 1.1.0
+- [`80a5984`](https://github.com/BetaHuhn/gh-repo-automation/commit/80a5984)  Bump handlebars from 4.7.6 to 4.7.7
+- [`6ab576a`](https://github.com/BetaHuhn/gh-repo-automation/commit/6ab576a)  Bump @semantic-release/github from 7.2.1 to 7.2.3
+- [`d2480f5`](https://github.com/BetaHuhn/gh-repo-automation/commit/d2480f5)  Bump hosted-git-info from 2.8.8 to 2.8.9
+- [`a3340a0`](https://github.com/BetaHuhn/gh-repo-automation/commit/a3340a0)  Bump lodash from 4.17.20 to 4.17.21
+- [`644cb50`](https://github.com/BetaHuhn/gh-repo-automation/commit/644cb50)  Bump trim-newlines from 3.0.0 to 3.0.1
+- [`ab17310`](https://github.com/BetaHuhn/gh-repo-automation/commit/ab17310)  Bump glob-parent from 5.1.1 to 5.1.2
+- [`0bdb8f1`](https://github.com/BetaHuhn/gh-repo-automation/commit/0bdb8f1)  Bump actions/setup-node from 2.1.4 to 2.4.0
+- [`87801d7`](https://github.com/BetaHuhn/gh-repo-automation/commit/87801d7)  Bump path-parse from 1.0.6 to 1.0.7
+- [`bdadba1`](https://github.com/BetaHuhn/gh-repo-automation/commit/bdadba1)  Bump @semantic-release/npm from 7.1.1 to 7.1.3
+- [`d424132`](https://github.com/BetaHuhn/gh-repo-automation/commit/d424132)  Bump typescript from 4.2.4 to 4.4.2
+- [`b480f32`](https://github.com/BetaHuhn/gh-repo-automation/commit/b480f32)  Bump semantic-release from 17.4.2 to 17.4.7
+
 ## [v4.0.2] - 2021-04-12
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.2) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.1...v4.0.2) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.2) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.2.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.2.tar.gz))
