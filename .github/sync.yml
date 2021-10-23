@@ -2,3 +2,5 @@ BetaHuhn/gh-repo-automation2:
   - source: .github/workflows/
     dest: .github/workflows/
     exclude: node.yml
+  - source: docker-compose.yml
+    dest: docker-compose.yml
