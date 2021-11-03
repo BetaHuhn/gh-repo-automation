@@ -31,4 +31,9 @@ BetaHuhn/gh-repo-automation2@test9:
 BetaHuhn/gh-repo-automation2@test10:
   - source: test.txt
     dest: test.txt
-
+BetaHuhn/gh-repo-automation2@test11:
+  - source: test.txt
+    dest: test.txt
+BetaHuhn/gh-repo-automation2@test12:
+  - source: test.txt
+    dest: test.txt
