@@ -11,6 +11,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2.4.0
       - name: Run GitHub File Sync
-        uses: BetaHuhn/repo-file-sync-action@develop
+        uses: BetaHuhn/repo-file-sync-action@fix/rate-limit
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
