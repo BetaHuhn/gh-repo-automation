@@ -4,36 +4,6 @@ BetaHuhn/gh-repo-automation2:
 BetaHuhn/gh-repo-automation2@test1:
   - source: test.txt
     dest: test.txt
-BetaHuhn/gh-repo-automation2@test2:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test3:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test4:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test5:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test6:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test7:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test8:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test9:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test10:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test11:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test12:
+BetaHuhn/gh-repo-automation2@error:
   - source: test.txt
     dest: test.txt
