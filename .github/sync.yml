@@ -1,9 +1,3 @@
-BetaHuhn/gh-repo-automation2:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@test1:
-  - source: test.txt
-    dest: test.txt
-BetaHuhn/gh-repo-automation2@error:
+BetaHuhn/gh-repo-automation:
   - source: test.txt
     dest: test.txt
