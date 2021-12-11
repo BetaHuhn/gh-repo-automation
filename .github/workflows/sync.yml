@@ -11,6 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2.4.0
       - name: Run GitHub File Sync
-        uses: xanjohns/repo-file-sync-action@fork-feature
+        uses: BetaHuhn/repo-file-sync-action@develop
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
+          FORK: BetaHuhnBot
