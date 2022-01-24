@@ -1,3 +1,12 @@
+## [v4.0.16] - 2022-01-24
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.16) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.15...v4.0.16) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.16) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.16.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.16.tar.gz))
+
+### Dependency updates
+
+- [`723a523`](https://github.com/BetaHuhn/gh-repo-automation/commit/723a523)  Bump typescript from 4.5.4 to 4.5.5
+- [`b4b7109`](https://github.com/BetaHuhn/gh-repo-automation/commit/b4b7109)  Bump trim-off-newlines from 1.0.1 to 1.0.3
+
 ## [v4.0.15] - 2022-01-03
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.15) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.14...v4.0.15) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.15) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.15.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.15.tar.gz))
