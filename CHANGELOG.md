@@ -1,3 +1,12 @@
+## [v4.0.17] - 2022-01-31
+
+[Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.17) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.16...v4.0.17) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.17) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.17.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.17.tar.gz))
+
+### Dependency updates
+
+- [`24e0daa`](https://github.com/BetaHuhn/gh-repo-automation/commit/24e0daa)  Bump node-fetch from 2.6.1 to 2.6.7
+- [`5a6e23d`](https://github.com/BetaHuhn/gh-repo-automation/commit/5a6e23d)  Bump semantic-release-gitmoji from 1.4.2 to 1.4.4
+
 ## [v4.0.16] - 2022-01-24
 
 [Release notes](https://github.com/BetaHuhn/gh-repo-automation/releases/tag/v4.0.16) · [Compare](https://github.com/BetaHuhn/gh-repo-automation/compare/v4.0.15...v4.0.16) · [Tag](https://github.com/BetaHuhn/gh-repo-automation/tree/v4.0.16) · Archive ([zip](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.16.zip) · [tar.gz](https://github.com/BetaHuhn/gh-repo-automation/archive/v4.0.16.tar.gz))
