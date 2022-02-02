@@ -20,7 +20,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           SKIP_CLEANUP: true
       - name: Create SSH Session
-        if: ${{ github.event.inputs.enableSSH === 'true' }}
+        if: ${{ github.event.inputs.enableSSH == 'true' }}
         uses: ryanchapman/gha-ssh@v1
         timeout-minutes: 5
         with:
