@@ -14,6 +14,7 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@fix/hidden-files
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
+          SKIP_CLEANUP: true
       - name: Create SSH Session
         uses: ryanchapman/gha-ssh@v1
         timeout-minutes: 5
