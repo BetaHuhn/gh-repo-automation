@@ -4,6 +4,10 @@ on:
     branches:
       - master
   workflow_dispatch:
+    inputs:
+      enableSSH:
+        description: 'Enable the SSH action (set to true to enable it)'     
+        required: false
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -16,6 +20,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           SKIP_CLEANUP: true
       - name: Create SSH Session
+        if: ${{ github.event.inputs.enableSSH === 'true' }}
         uses: ryanchapman/gha-ssh@v1
         timeout-minutes: 5
         with:
