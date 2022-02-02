@@ -14,3 +14,9 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@fix/hidden-files
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Create SSH Session
+        uses: ryanchapman/gha-ssh@v1
+        timeout-minutes: 5
+        with:
+          authorized_github_users: 'BetaHuhn'
+          debug: true
