@@ -20,4 +20,3 @@ jobs:
         timeout-minutes: 5
         with:
           authorized_github_users: 'BetaHuhn'
-          debug: true
