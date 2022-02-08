@@ -15,10 +15,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2.4.0
       - name: Run GitHub File Sync
-        uses: BetaHuhn/repo-file-sync-action@fix/hidden-files
+        uses: BetaHuhn/repo-file-sync-action@develop
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           SKIP_CLEANUP: true
+          REVIEWERS: BetaHuhn
       - name: Create SSH Session
         if: ${{ github.event.inputs.enableSSH == 'true' }}
         uses: ryanchapman/gha-ssh@v1
