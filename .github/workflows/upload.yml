@@ -5,7 +5,7 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3.2.0
       - uses: BetaHuhn/do-spaces-action@develop
         with:
           access_key: ${{ secrets.SPACE_ACCESS_KEY}}
