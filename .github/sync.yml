@@ -1,4 +1,4 @@
 BetaHuhn/gh-repo-automation2:
-  - source: Docker
-    dest: Docker
+  - source: src
+    dest: src
     deleteOrphaned: true
