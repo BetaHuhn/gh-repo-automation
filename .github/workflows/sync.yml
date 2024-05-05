@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@main
       - name: Run GitHub File Sync
-        uses: alvarezfr/repo-file-sync-action@fix/github-app-auth-tree
+        uses: rasa/repo-file-sync-action@bump-to-node20
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
       - name: Create SSH Session
